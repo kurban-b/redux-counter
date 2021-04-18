@@ -6,8 +6,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.output {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 150px;
+  color: crimson;
 }
+.buttons {
+  display: flex;
+  justify-content: center;
+
+}
+.btn {
+  width: 100px;
+  display: block;
+  margin: 0 15px;
+  font-size: 28px;
+}
+.input_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+.input_block .title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+}
+.input_block input {
+  width: 100px;
+  font-size: 35px;
+  outline: none;
+}
+
